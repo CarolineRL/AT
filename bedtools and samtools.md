@@ -25,5 +25,5 @@ samtools view -q 1 -O bam -o Shape01.highQual.bam Shape01.bam
 ```
 
 ```
-bedtools multicov -bams Shape01.bam -bed exon.bed
+bedtools multicov -bams Shape01.bam -bed exon.bed | head -10
 ```
